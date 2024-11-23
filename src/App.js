@@ -3,17 +3,13 @@ import React, { useEffect } from "react";
 
 const App = () => {
   useEffect(() => {
-    // Ensure Telegram WebApp object is available
     if (window.Telegram?.WebApp) {
       const webApp = window.Telegram.WebApp;
 
-      // Set Header Color
       webApp.setHeaderColor("#ffffff");
 
-      // Log Mini App information
       console.log("Telegram WebApp Initialized:", webApp.initData);
 
-      // Expand the Web App
       webApp.expand();
     } else {
       console.error("Telegram WebApp is not available");
