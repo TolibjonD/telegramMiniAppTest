@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 40vh;
+  padding-top: var(--tg-safe-area-inset-top);
 }
 
 code {
