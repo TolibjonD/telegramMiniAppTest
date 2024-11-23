@@ -1,16 +1,17 @@
 import './App.css';
 
 function App() {
+  const webApp = window.Telegram.WebApp;
+  webApp.setHeaderColor('#fffff')
   return (
     <div className="App">
       <header className="App-header">
         <p>
           Drizo Manager App
         </p>
-        <a
+s        <a
           className="App-link"
           href="https://drizo.uz"
-          target="_blank"
           rel="noopener noreferrer"
         >
           Our website
